@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-    'This is the home page'
+    erb:index
 end
